@@ -18,8 +18,8 @@ import (
 	"strings"
 	"time"
 
-	"vpnctl/internal/paths"
-	"vpnctl/internal/settings"
+	"github.com/SRtaui/vpnctl/internal/paths"
+	"github.com/SRtaui/vpnctl/internal/settings"
 )
 
 // MinVersion is the oldest sing-box the generated config works with.

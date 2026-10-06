@@ -19,14 +19,20 @@ Download the binary for your architecture from
 [Releases](../../releases/latest) and put it in your `PATH`:
 
 ```sh
-curl -fLo vpnctl https://github.com/<you>/vpnctl/releases/latest/download/vpnctl-linux-amd64
+curl -fLo vpnctl https://github.com/SRtaui/vpnctl/releases/latest/download/vpnctl-linux-amd64
 sudo install -m755 vpnctl /usr/local/bin/vpnctl
 ```
 
-Or build from source (Go 1.22+):
+Or with Go 1.22+:
 
 ```sh
-git clone https://github.com/<you>/vpnctl && cd vpnctl
+go install github.com/SRtaui/vpnctl@latest   # installs to ~/go/bin
+```
+
+Or build from source:
+
+```sh
+git clone https://github.com/SRtaui/vpnctl && cd vpnctl
 make && sudo make install
 ```
 

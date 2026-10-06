@@ -13,13 +13,13 @@ import (
 	"syscall"
 	"text/tabwriter"
 
-	"vpnctl/internal/clash"
-	"vpnctl/internal/install"
-	"vpnctl/internal/paths"
-	"vpnctl/internal/service"
-	"vpnctl/internal/settings"
-	"vpnctl/internal/singbox"
-	"vpnctl/internal/sub"
+	"github.com/SRtaui/vpnctl/internal/clash"
+	"github.com/SRtaui/vpnctl/internal/install"
+	"github.com/SRtaui/vpnctl/internal/paths"
+	"github.com/SRtaui/vpnctl/internal/service"
+	"github.com/SRtaui/vpnctl/internal/settings"
+	"github.com/SRtaui/vpnctl/internal/singbox"
+	"github.com/SRtaui/vpnctl/internal/sub"
 )
 
 var version = "dev"

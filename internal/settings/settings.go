@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"vpnctl/internal/paths"
+	"github.com/SRtaui/vpnctl/internal/paths"
 )
 
 type Settings struct {

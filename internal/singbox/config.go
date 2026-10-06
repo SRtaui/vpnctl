@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"slices"
 
-	"vpnctl/internal/paths"
-	"vpnctl/internal/sub"
+	"github.com/SRtaui/vpnctl/internal/paths"
+	"github.com/SRtaui/vpnctl/internal/sub"
 )
 
 type Options struct {

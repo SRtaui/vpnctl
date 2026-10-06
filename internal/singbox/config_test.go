@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"vpnctl/internal/sub"
+	"github.com/SRtaui/vpnctl/internal/sub"
 )
 
 func TestBuildAutoExclude(t *testing.T) {

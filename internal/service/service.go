@@ -12,8 +12,8 @@ import (
 	"syscall"
 	"time"
 
-	"vpnctl/internal/paths"
-	"vpnctl/internal/settings"
+	"github.com/SRtaui/vpnctl/internal/paths"
+	"github.com/SRtaui/vpnctl/internal/settings"
 )
 
 type Manager interface {
